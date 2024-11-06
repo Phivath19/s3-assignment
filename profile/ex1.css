@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(77, 75, 73);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.first, .second , .third{
+    border: solid 1px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border-color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: none;
+    font-weight: 400px;
+}
+#one{
+    background-color: rgb(35, 194, 242);
+    border-color: rgb(101, 111, 203);
+    color: white;
+    cursor: pointer;
+}
+#two{
+    background-color: rgb(223, 223, 99);
+    border-color: yellow;
+    cursor: pointer;
+}
+#three{
+    background-color: rgb(193, 76, 193);
+    border-color: purple;
+    color: white;
+    cursor: pointer;
+}
+#one:hover{
+    
+    background-color: blue;
+}
+#two:hover{
+    
+    background-color: yellow;
+}
+#three:hover{
+    background-color: purple;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .a, .b ,.c{
+        background-color: black;
+    }
+    .wrapper{
+        display: grid;
+        grid-template-columns: 100px 100px 100px;
+        grid-template-rows: 100px 100px 100px;
+        gap: 10px;
+    }
+    .a{
+        grid-column: 2;
+        
+    }
+    .b{
+        grid-column: 3;
+        grid-row: 1/3;
+    }
+    .c{
+        grid-row: 3;
+    }
+</style>
+<body>
+    <div class="wrapper">
+        <div class="a">
+            a
+        </div>
+        <div class="b">
+            b
+        </div>
+        <div class="c">
+            c
+        </div>
+    </div>
+</body>
+</html>
